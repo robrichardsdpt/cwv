@@ -31,5 +31,8 @@ for (i = 0; i < coll.length; i++) {
     } else {
       content.style.display = "block";
     }
+    if (content.firstElementChild.id === "collapsible-image")
+      content.firstElementChild.style.backgroundImage =
+        'url("./bondcliffcopy.jpeg")';
   });
 }

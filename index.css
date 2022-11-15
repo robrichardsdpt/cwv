@@ -108,3 +108,10 @@
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+#collapsible-image {
+  width: 350px;
+  height: 250px;
+  background-size: cover;
+  margin: 0 auto;
+}
